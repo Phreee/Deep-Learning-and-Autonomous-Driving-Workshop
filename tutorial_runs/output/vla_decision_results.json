@@ -1,0 +1,62 @@
+[
+  {
+    "image": "center_2018_07_16_17_11_43_382.jpg",
+    "vision_only": {
+      "steering": -0.08357558399438858,
+      "throttle": 0.09080367535352707,
+      "brake": -0.03866787254810333
+    },
+    "language_guided": {
+      "turn left carefully": {
+        "steering": 0.11442618817090988,
+        "throttle": 0.06272753328084946,
+        "brake": 0.012624155730009079
+      },
+      "turn right at intersection": {
+        "steering": 0.11464570462703705,
+        "throttle": 0.06012469902634621,
+        "brake": 0.012881502509117126
+      }
+    }
+  },
+  {
+    "image": "center_2018_07_16_17_14_03_344.jpg",
+    "vision_only": {
+      "steering": -0.08658889681100845,
+      "throttle": 0.09168285131454468,
+      "brake": -0.03705933690071106
+    },
+    "language_guided": {
+      "turn left carefully": {
+        "steering": 0.11291074007749557,
+        "throttle": 0.06147753447294235,
+        "brake": 0.013400766998529434
+      },
+      "turn right at intersection": {
+        "steering": 0.11325576901435852,
+        "throttle": 0.05968175083398819,
+        "brake": 0.013897744007408619
+      }
+    }
+  },
+  {
+    "image": "center_2018_07_16_17_16_31_685.jpg",
+    "vision_only": {
+      "steering": -0.08466348052024841,
+      "throttle": 0.0902133509516716,
+      "brake": -0.03808991611003876
+    },
+    "language_guided": {
+      "turn left carefully": {
+        "steering": 0.11268577724695206,
+        "throttle": 0.062283050268888474,
+        "brake": 0.01097040344029665
+      },
+      "turn right at intersection": {
+        "steering": 0.11299978941679001,
+        "throttle": 0.060195330530405045,
+        "brake": 0.011816803365945816
+      }
+    }
+  }
+]

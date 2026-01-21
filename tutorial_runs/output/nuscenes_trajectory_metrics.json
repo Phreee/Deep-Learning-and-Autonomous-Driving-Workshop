@@ -1,0 +1,9 @@
+{
+  "model": "LSTM Trajectory Predictor",
+  "training_time": "2.2s",
+  "epochs": 5,
+  "best_val_ADE": "22.392m",
+  "test_ADE": "21.821m",
+  "test_FDE": "32.456m",
+  "test_Miss_Rate": "94.0%"
+}

@@ -1,0 +1,10 @@
+{
+  "train_size": 1000,
+  "test_size": 200,
+  "epochs": 2,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "train_loss_last": 0.025859,
+  "test_loss": 0.024536,
+  "elapsed_sec": 1.51
+}

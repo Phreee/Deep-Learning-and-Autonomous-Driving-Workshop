@@ -1,0 +1,17 @@
+{
+  "model": "resnet18",
+  "num_params": 11181642,
+  "device": "cpu",
+  "num_epochs": 10,
+  "train_subset": 5000,
+  "test_subset": 1000,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "data_augment": false,
+  "elapsed_sec": 175.37,
+  "final_train_acc": 0.8656,
+  "final_val_acc": 0.506,
+  "final_train_loss": 0.401482,
+  "final_val_loss": 2.022294
+}

@@ -1,0 +1,71 @@
+VLA Decision Demo - Summary Report
+======================================================================
+
+Image 1: center_2018_07_16_17_11_43_382.jpg
+----------------------------------------------------------------------
+Vision-Only Decision:
+  Steering: -0.084
+  Throttle: +0.091
+  Brake:    -0.039
+
+Language-Guided Decision ("turn left carefully"):
+  Steering: +0.114
+  Throttle: +0.063
+  Brake:    +0.013
+  → Steering Δ: +0.198 (impact of language)
+
+Language-Guided Decision ("turn right at intersection"):
+  Steering: +0.115
+  Throttle: +0.060
+  Brake:    +0.013
+  → Steering Δ: +0.198 (impact of language)
+
+
+Image 2: center_2018_07_16_17_14_03_344.jpg
+----------------------------------------------------------------------
+Vision-Only Decision:
+  Steering: -0.087
+  Throttle: +0.092
+  Brake:    -0.037
+
+Language-Guided Decision ("turn left carefully"):
+  Steering: +0.113
+  Throttle: +0.061
+  Brake:    +0.013
+  → Steering Δ: +0.199 (impact of language)
+
+Language-Guided Decision ("turn right at intersection"):
+  Steering: +0.113
+  Throttle: +0.060
+  Brake:    +0.014
+  → Steering Δ: +0.200 (impact of language)
+
+
+Image 3: center_2018_07_16_17_16_31_685.jpg
+----------------------------------------------------------------------
+Vision-Only Decision:
+  Steering: -0.085
+  Throttle: +0.090
+  Brake:    -0.038
+
+Language-Guided Decision ("turn left carefully"):
+  Steering: +0.113
+  Throttle: +0.062
+  Brake:    +0.011
+  → Steering Δ: +0.197 (impact of language)
+
+Language-Guided Decision ("turn right at intersection"):
+  Steering: +0.113
+  Throttle: +0.060
+  Brake:    +0.012
+  → Steering Δ: +0.198 (impact of language)
+
+
+======================================================================
+Key Insights:
+- Vision-only decision: Depends solely on visual features
+- Language-guided decision: Influenced by natural language instructions
+- Delta values show how language modifies the decision
+
+Note: This is a SIMULATED demo using random policy heads.
+Real VLA models require large-scale training on image-text-action datasets.
